@@ -10,8 +10,11 @@ input{
     box-sizing: border-box;
     resize: vertical;
 }
+input:hover{
+    border-color: #4686ed;
+}
 label {
-    padding: 12px 12px 12px 0;
+    padding: 15px 15px 15px 0;
     display: inline-block;
   }
 .form-control1{
@@ -25,14 +28,29 @@ label {
     background-color: #4686ed;
     color: white;
 }
+.container{
+    display: flex;
+    
+    
+}
+#checkbox{
+    margin-left: 35rem;
+    
+}
+p{
+    padding-left: 5%;
+}
 .button-1{
     background-color:#4686ed;
+    height: 2.5rem;
+    width: 12.5rem;
+    border-radius: 6px;
+    margin-left: 30px;
+
 }
 .button-2{
     background-color:#1bc055;
+    height: 2.5rem;
+    width: 12.5rem;
+    border-radius: 6px;
 }
-@media (min-width: 320px) and (max-width: 480px) {
-  
-
-    
-  }
